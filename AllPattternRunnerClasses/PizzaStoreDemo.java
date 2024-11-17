@@ -1,5 +1,6 @@
-package FactoryPattern.PizzaStores;
+package AllPattternRunnerClasses;
 
+import FactoryPattern.PizzaStores.PizzaStore;
 import FactoryPattern.PizzaStores.Dominos.DominoStore;
 import FactoryPattern.PizzaStores.Lapinoz.LapinozStore;
 

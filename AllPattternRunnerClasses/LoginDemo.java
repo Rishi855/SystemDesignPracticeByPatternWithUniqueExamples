@@ -1,5 +1,6 @@
-package ChainResponsibility.SystemLogin;
+package AllPattternRunnerClasses;
 
+import ChainResponsibility.SystemLogin.Authorize;
 import ChainResponsibility.SystemLogin.Handlers.Handler;
 import ChainResponsibility.SystemLogin.Handlers.PasswordHandle;
 import ChainResponsibility.SystemLogin.Handlers.RoleHandle;

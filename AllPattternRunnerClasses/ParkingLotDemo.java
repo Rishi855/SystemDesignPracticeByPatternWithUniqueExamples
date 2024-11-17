@@ -1,5 +1,7 @@
-package ChainResponsibility.VehicleParking;
+package AllPattternRunnerClasses;
 
+import ChainResponsibility.VehicleParking.Level;
+import ChainResponsibility.VehicleParking.ParkingLot;
 import ChainResponsibility.VehicleParking.VehiclesType.*;
 
 public class ParkingLotDemo {

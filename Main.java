@@ -1,15 +1,19 @@
-import ChainResponsibility.SystemLogin.LoginDemo;
-import ChainResponsibility.VehicleParking.ParkingLotDemo;
-import FactoryPattern.PizzaStores.PizzaStoreDemo;
+import AllPattternRunnerClasses.LoginDemo;
+import AllPattternRunnerClasses.ParkingLotDemo;
+import AllPattternRunnerClasses.PizzaStoreDemo;
+import AllPattternRunnerClasses.VehicleFactoryDemo;
 
 public class Main {
     public static void main(String[] args) {
         //>>>>>>>>>>> Chain of responsibility <<<<<<<<<<<<<<
         // new ParkingLotDemo().run();
         // new LoginDemo().run();
-        new PizzaStoreDemo().run();
+
+        //>>>>>>>>>>> Factory Design pattern <<<<<<<<<<<<<<
+        // new PizzaStoreDemo().run();
+        new VehicleFactoryDemo().run();
     }
 }
 
-// javac ChainResponsibility/SystemLogin/LoginDemo.java ChainResponsibility/VehicleParking/ParkingLotDemo.java FactoryPattern/PizzaStores/PizzaStoreDemo.java Main.java
+// javac .\AllPattternRunnerClasses\*.java .\Main.java 
 // java -cp . Main
