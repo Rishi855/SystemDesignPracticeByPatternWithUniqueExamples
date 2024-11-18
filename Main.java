@@ -11,7 +11,7 @@ public class Main {
 
         //>>>>>>>>>>> Factory Design pattern <<<<<<<<<<<<<<
         // new PizzaStoreDemo().run();
-        new VehicleFactoryDemo().run();
+        // new VehicleFactoryDemo().run();
     }
 }
 
