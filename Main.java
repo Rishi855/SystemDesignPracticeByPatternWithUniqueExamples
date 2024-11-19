@@ -1,3 +1,4 @@
+import AbstractFactoryPattern.PizzaFactory.PizzaFactoryDemo;
 import AllPattternRunnerClasses.LoginDemo;
 import AllPattternRunnerClasses.ParkingLotDemo;
 import AllPattternRunnerClasses.PizzaStoreDemo;
@@ -12,6 +13,10 @@ public class Main {
         //>>>>>>>>>>> Factory Design pattern <<<<<<<<<<<<<<
         // new PizzaStoreDemo().run();
         // new VehicleFactoryDemo().run();
+
+        //>>>>>>>>>>> Abstract Factory Design pattern <<<<<<<<<<<<<<
+        new PizzaFactoryDemo().run();
+        
     }
 }
 

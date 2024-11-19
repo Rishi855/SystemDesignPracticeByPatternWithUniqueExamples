@@ -1,6 +1,5 @@
 package AbstractFactoryPattern.PizzaFactory.PizzaTypes.Dough;
 
-public class DoughBase {
-
-    
+public interface DoughBase {
+    String toString();
 }

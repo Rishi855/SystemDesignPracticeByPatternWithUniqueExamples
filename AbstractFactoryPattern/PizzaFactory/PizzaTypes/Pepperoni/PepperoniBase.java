@@ -1,6 +1,5 @@
 package AbstractFactoryPattern.PizzaFactory.PizzaTypes.Pepperoni;
 
-public class PepperoniBase {
-
-    
+public interface PepperoniBase {
+    String toString();
 }

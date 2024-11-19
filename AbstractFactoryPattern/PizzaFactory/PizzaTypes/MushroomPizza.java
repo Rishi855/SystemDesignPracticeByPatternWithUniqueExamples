@@ -5,15 +5,15 @@ import AbstractFactoryPattern.PizzaFactory.PizzaMakingIngredient.IngredientBase;
 public class MushroomPizza extends Pizza {
 
     IngredientBase ingredientBase;
-    MushroomPizza(IngredientBase ingredientBase){
+    public MushroomPizza(IngredientBase ingredientBase){
         this.ingredientBase = ingredientBase;
     }
 
     @Override
     public void prepare() {
-        dough = ingredientBase.createDaugh();
-        sauce = ingredientBase.createPizza();
-        pepperoni = ingredientBase.createPizza();
+        dough = ingredientBase.createDough();
+        sauce = ingredientBase.createSauce();
+        pepperoni = ingredientBase.createPepperoni();
     }
 
     
